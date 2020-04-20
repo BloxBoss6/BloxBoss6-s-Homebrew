@@ -9,7 +9,8 @@
     <element name="BloxBoss6's Homebrew" type="Source" source="Homebrew" id="ID_BLOXBOSS6_SOURCE_BLOXBOSS6S_HOMEBREW">
         <setters>
             <set name="abbreviation">BB6H</set>
-            <set name="author">BloxBoss6</set>
+            <set name="url">https://github.com/BloxBoss6/BloxBoss6-s-Homebrew</set>
+            <set name="author" url="https://github.com/BloxBoss6/BloxBoss6-s-Homebrew">BloxBoss6</set>
             <set name="official">false</set>
             <set name="supplement">false</set>
             <set name="release">20200420</set>
