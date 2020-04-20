@@ -5,13 +5,13 @@
 		<description>Custom Homebrew Content</description>
 		<author >BloxBoss6</author>
 		<update version="0.0.2">
-			<file name="bloxboss6's_homebrew.index" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Hombrew/master/bloxboss6's_homebrew.index?token=ALA4DYX54UKIN2XMWONLFM26TX7DW" />
+			<file name="bloxboss6's_homebrew.index" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Homebrew/master/bloxboss6's_homebrew.index" />
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Hombrew/master/source.xml?token=ALA4DYVJDWGTLO5P66VM6426TX7L4" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Homebrew/master/source.xml" />
 
 		<!-- archetypes -->
-		<file name="warlock-gond.xml" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Hombrew/master/archetypes/warlock-gond.xml?token=ALA4DYSG3R47MLNIS2LMO6K6TX7OQ" />
+		<file name="warlock-gond.xml" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Homebrew/master/archetypes/warlock-gond.xml" />
 	</files>
 </index>

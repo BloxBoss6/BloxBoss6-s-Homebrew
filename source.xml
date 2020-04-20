@@ -2,7 +2,7 @@
 <elements>
     <info>
         <update version="0.0.2">
-            <file name="source.xml" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Hombrew/master/source.xml?token=ALA4DYVJDWGTLO5P66VM6426TX7L4" />
+            <file name="source.xml" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Homebrew/master/source.xml" />
         </update>
     </info>
 
