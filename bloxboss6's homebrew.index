@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>BloxBoss6's Homebrew</name>
+		<description>Custom Homebrew Content</description>
+		<author >BloxBoss6</author>
+		<update version="0.0.2">
+			<file name="bloxboss6's_homebrew.index" url="" />
+		</update>
+	</info>
+	<files>
+		<file name="source.xml" url="" />
+
+		<!-- archetypes -->
+		<file name="warlock-gond.xml" url="" />
+	</files>
+</index>

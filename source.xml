@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <update version="0.0.1">
+            <file name="source.xml" url="" />
+        </update>
+    </info>
+
+    <element name="BloxBoss6's Homebrew" type="Source" source="Homebrew" id="ID_BLOXBOSS6_SOURCE_BLOXBOSS6S_HOMEBREW">
+        <setters>
+            <set name="abbreviation">BB6H</set>
+            <set name="author">BloxBoss6</set>
+            <set name="official">false</set>
+            <set name="supplement">false</set>
+            <set name="release">20200420</set>
+        </setters>
+    </element> 
+    
+</elements>
