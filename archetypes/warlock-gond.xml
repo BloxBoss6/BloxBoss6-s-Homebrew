@@ -5,7 +5,7 @@
         <name>Gond</name>
         <description>Gond, The Patron God of Smiths and Tinkerers</description>
         <author>BloxBoss6</author>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="warlock-gond.xml" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Homebrew/master/archetypes/warlock-gond.xml" />
         </update>
     </info>
@@ -43,7 +43,7 @@
         <sheet display="false">
             <description>Gond gives you many spells to further your abilities and technologies.</description>
         </sheet>
-        <rulse>
+        <rules>
             <grant type="Spell" id="ID_PHB_SPELL_ELEMENTAL_WEAPON" level="1" spellcasting="Warlock"  />
             <grant type="Spell" id="ID_PHB_SPELL_GUIDING_BOLT" level="1" spellcasting="Warlock"  />
             <grant type="Spell" id="ID_PHB_SPELL_HEAT_METAL" level="3" spellcasting="Warlock"  />
