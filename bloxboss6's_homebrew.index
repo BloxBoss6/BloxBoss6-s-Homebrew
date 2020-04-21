@@ -4,7 +4,7 @@
 		<name>BloxBoss6's Homebrew</name>
 		<description>Custom Homebrew Content</description>
 		<author url="https://github.com/BloxBoss6/BloxBoss6-s-Homebrew">BloxBoss6</author>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="bloxboss6's_homebrew.index" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Homebrew/master/bloxboss6's_homebrew.index" />
 		</update>
 	</info>
