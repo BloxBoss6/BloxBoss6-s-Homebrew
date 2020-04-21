@@ -4,7 +4,7 @@
 		<name>BloxBoss6's Homebrew</name>
 		<description>Custom Homebrew Content</description>
 		<author url="https://github.com/BloxBoss6/BloxBoss6-s-Homebrew">BloxBoss6</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="bloxboss6's_homebrew.index" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Homebrew/master/bloxboss6's_homebrew.index" />
 		</update>
 	</info>
@@ -13,5 +13,7 @@
 
 		<!-- archetypes -->
 		<file name="warlock-gond.xml" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Homebrew/master/archetypes/warlock-gond.xml" />
+
+        <file name="companions.xml" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Homebrew/master/companions.xml" />
 	</files>
 </index>
