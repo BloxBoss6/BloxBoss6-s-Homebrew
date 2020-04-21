@@ -5,7 +5,7 @@
         <name>Gond</name>
         <description>Gond, The Patron God of Smiths and Tinkerers</description>
         <author>BloxBoss6</author>
-        <update version="0.0.7">
+        <update version="0.0.8">
             <file name="warlock-gond.xml" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Homebrew/master/archetypes/warlock-gond.xml" />
         </update>
     </info>
@@ -49,7 +49,7 @@
             <grant type="Spell" id="ID_PHB_SPELL_HEAT_METAL" level="3" spellcasting="Warlock"  />
             <grant type="Spell" id="ID_PHB_SPELL_IDENTIFY" level="3" spellcasting="Warlock"  />
             <grant type="Spell" id="ID_PHB_SPELL_KNOCK" level="5" spellcasting="Warlock"  />
-            <grant type="Spell" id="ID_PHB_SPELL_TINY_HUT" level="5" spellcasting="Warlock"  />
+            <grant type="Spell" id="ID_PHB_SPELL_LEOMUNDS_TINY_HUT" level="5" spellcasting="Warlock"  />
         </rules>
     </element>
 
@@ -66,9 +66,9 @@
 			If the beast dies, you can obtain another one by spending 8 hours magically bonding with another beast that isn’t hostile to you, either the same type of beast as before or a different one.</description>
 		</sheet>
 		<rules>
-            <grant type="Companion" id="ID_BLOXBOSS6_BB6H_COMPANION_GONDS_WOLF" />
+            <!-- <grant type="Companion" id="ID_BLOXBOSS6_BB6H_COMPANION_GONDS_WOLF" /> -->
 
-			<!-- <select type="Companion" name="Gond's" supports="Construct,Medium,2" />
+		    <select type="Companion" name="Gond's Gift" supports="Construct,Medium,2" />
 			<stat name="companion:ac" value="proficiency" />
 			<stat name="companion:attack" value="proficiency" />
 			<stat name="companion:damage" value="proficiency" />			
@@ -76,7 +76,7 @@
 			<stat name="additional:hp:max" value="level:ranger" />
 			<stat name="additional:hp:max" value="level:ranger" />
 			<stat name="additional:hp:max" value="level:ranger" />
-			<stat name="companion:hp:max" value="additional:hp:max" bonus="base" /> -->
+			<stat name="companion:hp:max" value="additional:hp:max" bonus="base" />
 		</rules>
     </element>
     
