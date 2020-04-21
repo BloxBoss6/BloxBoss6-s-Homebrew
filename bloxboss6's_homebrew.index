@@ -16,5 +16,6 @@
 
         <file name="companions.xml" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Homebrew/master/companions.xml" />
         <file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Homebrew/master/eldritch-invocations.xml" />
+        <file name="items.xml" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Homebrew/master/items.xml" />
 	</files>
 </index>
