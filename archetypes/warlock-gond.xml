@@ -83,14 +83,14 @@
     <element name="Pact of Gond" type="Class Feature" source="BloxBoss6's Homebrew" id="ID_BLOXBOSS6_BB6H_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_GOND">
 		<supports>Pact Boon</supports>
 		<description>
-			<p>You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
-			<p class="indent">Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.</p>
-			<p class="indent">You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can’t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</p>
+			<p>You can use your action to summon a pact tool into your empty hand. The pact tool has to be a tool that has been placed inside the Magical Tool Belt you recieved from your Patron.</p>
+            <p class="indent">Your pact tool disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the tool (no action required), or if you die.</p>
+            <p class="indent">You can transform a tool into a pact tool by imprinting a special incantation onto the handle of the tool and placing the tool inside of your Magical Tool Belt.</p>
 		</description>
 		<sheet usage="Action">
-			<description>Create a pact weapon in your empty hand. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
-			Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.
-			You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can’t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</description>
+            <description>Summon a pact tool into your empty hand. The pact tool has to be a tool that has been placed inside the Magical Tool Belt you recieved from your Patron.
+			Your pact tool disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the tool (no action required), or if you die.
+			You can transform a tool into a pact tool by imprinting a special incantation onto the handle of the tool and placing the tool inside of your Magical Tool Belt.</description>
 		</sheet>
 	</element>
     
