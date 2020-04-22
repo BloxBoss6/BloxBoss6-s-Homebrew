@@ -4,7 +4,7 @@
         <name>Companions</name>
         <description>Companion Creatures from BloxBoss6's Hombrew.</description>
         <author url="https://github.com/BloxBoss6/BloxBoss6-s-Homebrew">BloxBoss6</author>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="companions.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/companions.xml" />
         </update>
     </info>
@@ -27,6 +27,36 @@
 			<set name="size">Medium</set>
 			<set name="alignment">neutral good</set>
 			<set name="challenge">2</set>
+			<set name="traits">ID_BLOXBOSS6_BB6H_COMPANION_TRAIT_GONDS_WOLF_GIFT,ID_BLOXBOSS6_BBB6H_COMPANION_TRAIT_GONDS_WOLF_KEEN_HEARING_AND_SMELL,ID_BLOXBOSS6_BB6H_COMPANION_TRAIT_GONDS_WOLF_PACK_TACTICS</set>
+			<set name="actions">ID_BLOXBOSS6_BB6H_COMPANION_ACTION_GONDS_WOLF_BITE</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="14" />
+			<stat name="companion:hp:max" value="37" bonus="base" />
+			<stat name="companion:speed" value="45" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+
+    <element name="Wolf of Gond 2" type="Companion" source="BloxBoss6's Homebrew" id="ID_BLOXBOSS6_BB6H_COMPANION_GONDS_WOLF_2">
+		<description />
+		<setters>
+			<set name="strength">17</set>
+			<set name="dexterity">15</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">5</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">7</set>
+			<set name="ac">14 (natural armor)</set>
+			<set name="hp">37 (5d10+2)</set>
+			<set name="speed">45 ft.</set>
+			<set name="languages">—</set>
+			<set name="skills">Perception +3, Stealth +4</set>
+			<set name="type">Automaton</set>
+			<set name="size">Medium</set>
+			<set name="alignment">neutral good</set>
+			<set name="challenge">3</set>
 			<set name="traits">ID_BLOXBOSS6_BB6H_COMPANION_TRAIT_GONDS_WOLF_GIFT,ID_BLOXBOSS6_BBB6H_COMPANION_TRAIT_GONDS_WOLF_KEEN_HEARING_AND_SMELL,ID_BLOXBOSS6_BB6H_COMPANION_TRAIT_GONDS_WOLF_PACK_TACTICS</set>
 			<set name="actions">ID_BLOXBOSS6_BB6H_COMPANION_ACTION_GONDS_WOLF_BITE</set>
 		</setters>

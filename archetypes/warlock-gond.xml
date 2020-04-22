@@ -5,7 +5,7 @@
         <name>Gond</name>
         <description>Gond, The Patron God of Smiths and Tinkerers</description>
         <author>BloxBoss6</author>
-        <update version="0.0.10">
+        <update version="0.0.11">
             <file name="warlock-gond.xml" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Homebrew/master/archetypes/warlock-gond.xml" />
         </update>
     </info>
@@ -99,7 +99,7 @@
 		<rules>
             <!-- <grant type="Companion" id="ID_BLOXBOSS6_BB6H_COMPANION_GONDS_WOLF" /> -->
 
-		    <select type="Companion" name="Gond's Second Gift" supports="Wolf" />
+		    <select type="Companion" name="Gond's Second Gift" supports="Automaton,Medium,3" />
 			<stat name="companion:ac" value="proficiency" />
 			<stat name="companion:attack" value="proficiency" />
 			<stat name="companion:damage" value="proficiency" />			
