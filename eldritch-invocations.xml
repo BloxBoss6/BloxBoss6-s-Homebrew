@@ -4,7 +4,7 @@
         <name>Eldritch Invocations BB6</name>
         <description>The Eldritch Invocations from BloxBoss6's Homebrew</description>
         		<author url="https://github.com/BloxBoss6/BloxBoss6-s-Homebrew">BloxBoss6</author>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Homebrew/master/eldritch-invocations.xml" />
         </update>
     </info>
@@ -22,18 +22,18 @@
         </sheet>
     </element> -->
 
-    <!-- <element name="" type="Class Feature" source="BloxBoss6's Homebrew" id="ID_BLOXBOSS6_BB6H_CLASS_FEATURE_ELDRITCH_">
+    <element name="Imbue Magic (Gond)" type="Class Feature" source="BloxBoss6's Homebrew" id="ID_BLOXBOSS6_BB6H_CLASS_FEATURE_ELDRITCH_IMBUE_MAGIC_GOND">
         <supports>Eldritch Invocation, Pact of Gond</supports>
         <prerequisite>2nd level, Pact of Gond feature</prerequisite>
         <requirements>[level:2],ID_BLOXBOSS6_BB6H_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_GOND</requirements>
         <description>
             <p class="flavor">Prerequisite: 2nd level, Pact of Gond feature</p>
-            <p>Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot, and you can knock the target prone if it is Huge or smaller.</p>
+            <p>You are given the ability to call upon Gond to imbue magic into a mechanical device. This device can follow simple instructions given only by you. Depending on the size of the object, the ritual could take up to an hour, And could only be done once a day.</p>
         </description>
         <sheet>
-            <description>Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot, and you can knock the target prone if it is Huge or smaller.</description>
+            <description>You are given the ability to call upon Gond to imbue magic into a mechanical device. This device can follow simple instructions given only by you. Depending on the size of the object, the ritual could take up to an hour, And could only be done once a day.</description>
         </sheet>
-    </element> -->
+    </element>
 
     <element name="Mechanical Rhythms" type="Class Feature" source="BloxBoss6's Homebrew" id="ID_BLOXBOSS6_BB6H_CLASS_FEATURE_ELDRITCH_MECHANICAL_RHYTHMS">
         <supports>Eldritch Invocation, Pact of Gond</supports>

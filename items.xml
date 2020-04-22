@@ -4,7 +4,7 @@
         <name>Items</name>
         <description>Items from BloxBoss6's Hombrew.</description>
         <author url="https://github.com/BloxBoss6/BloxBoss6-s-Homebrew">BloxBoss6</author>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="items.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/items.xml" />
         </update>
     </info>
@@ -33,6 +33,7 @@
 			<set name="keywords">material</set>
 			<set name="category">Materials</set>
 			<set name="cost" currency="sp">12</set>
+            <set name="weight" lb="30">30 lb.</set>
 			<set name="stackable">true</set>
 			<set name="valuable">false</set>
 		</setters>
