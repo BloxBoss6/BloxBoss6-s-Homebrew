@@ -5,7 +5,7 @@
         <name>Gond</name>
         <description>Gond, The Patron God of Smiths and Tinkerers</description>
         <author>BloxBoss6</author>
-        <update version="0.0.9">
+        <update version="0.0.10">
             <file name="warlock-gond.xml" url="https://raw.githubusercontent.com/BloxBoss6/BloxBoss6-s-Homebrew/master/archetypes/warlock-gond.xml" />
         </update>
     </info>
@@ -17,6 +17,7 @@
             <p class="indent">As the Lord of All Smiths, Gond has the ability to make all sorts of amazing mechanical devices. He sometimes decides to pass down this beautiful ability to his most trusted followers.</p>
             <div element="ID_BLOXBOSS6_BB6H_ARCHETYPE_FEATURE_GOND_GONDS_SPELLS" />
             <div element="ID_BLOXBOSS6_BB6H_ARCHETYPE_FEATURE_GOND_GONDS_FAVOR" />
+            <div element="ID_BLOXBOSS6_BB6H_ARCHETYPE_FEATURE_GOND_GONDS_FAVOR_2" />
         </description>
         <sheet>
             <description>You have made your pact with a mysterious entity from the Gods of the Multiverse.</description>
@@ -24,6 +25,7 @@
         <rules>
             <grant type="Archetype Feature" id="ID_BLOXBOSS6_BB6H_ARCHETYPE_FEATURE_GOND_GONDS_SPELLS" level="1" />
             <grant type="Archetype Feature" id="ID_BLOXBOSS6_BB6H_ARCHETYPE_FEATURE_GOND_GONDS_FAVOR" level="6" />
+            <grant type="Archetype Feature" id="ID_BLOXBOSS6_BB6H_ARCHETYPE_FEATURE_GOND_GONDS_FAVOR_2" level="10" />
         </rules>
     </element>
 
@@ -72,10 +74,39 @@
 			<stat name="companion:ac" value="proficiency" />
 			<stat name="companion:attack" value="proficiency" />
 			<stat name="companion:damage" value="proficiency" />			
-			<stat name="additional:hp:max" value="level:ranger" />
-			<stat name="additional:hp:max" value="level:ranger" />
-			<stat name="additional:hp:max" value="level:ranger" />
-			<stat name="additional:hp:max" value="level:ranger" />
+			<stat name="additional:hp:max" value="level:warlock" />
+			<stat name="additional:hp:max" value="level:warlock" />
+			<stat name="additional:hp:max" value="level:warlock" />
+			<stat name="additional:hp:max" value="level:warlock" />
+			<stat name="companion:hp:max" value="additional:hp:max" bonus="base" />
+		</rules>
+    </element>
+
+    <element name="Gond's Favor 2" type="Archetype Feature" source="BloxBoss6's Homebrew" id="ID_BLOXBOSS6_BB6H_ARCHETYPE_FEATURE_GOND_GONDS_FAVOR_2">
+        <supports>Warlock</supports>
+        <prerequisite>10th level</prerequisite>
+        <requirements>[level:10]</requirements>
+        <description>
+            <p>Gond looks favorably upon you and wishes to bestow you a gift. You receive a wolf-shaped automaton, which is about 3 feet tall at the shoulder. Has the ability to follow simple instructions, and has a built in saddle as well as a few small storage compartments. When not in use, it magically compacts into a small cube, roughly 4 inches in diameter with an incantation written on the top, "Bractha Fi Harog A Gond," or "Awaken, you Wolf of Gond." To shutdown, use the incantation "Hûm Fi Harog A Gond," or "Sleep, you Wolf of Gond."</p>
+            <p></p>
+            <p class="indent">Gond tells you that as long as he is still pleased with your work, more gifts shall be given.</p>
+        </description>
+        <sheet>
+			<description>The beast obeys your commands as best as it can. It takes its turn on your initiative, though it doesn’t take an action unless you command it to. On your turn, you can verbally command the beast where to move. You can use your action to verbally command it to take the Attack, Dash, Disengage, Dodge, or Help action. Once you have the Extra Attack feature, you can make one weapon attack yourself when you command the beast to take the Attack action.
+			While traveling through your favored terrain with only the beast, you can move stealthily at a normal pace.
+			If the beast dies, you can obtain another one by spending 8 hours magically bonding with another beast that isn’t hostile to you, either the same type of beast as before or a different one.</description>
+		</sheet>
+		<rules>
+            <!-- <grant type="Companion" id="ID_BLOXBOSS6_BB6H_COMPANION_GONDS_WOLF" /> -->
+
+		    <select type="Companion" name="Gond's Second Gift" supports="Wolf" />
+			<stat name="companion:ac" value="proficiency" />
+			<stat name="companion:attack" value="proficiency" />
+			<stat name="companion:damage" value="proficiency" />			
+			<stat name="additional:hp:max" value="level:warlock" />
+			<stat name="additional:hp:max" value="level:warlock" />
+			<stat name="additional:hp:max" value="level:warlock" />
+			<stat name="additional:hp:max" value="level:warlock" />
 			<stat name="companion:hp:max" value="additional:hp:max" bonus="base" />
 		</rules>
     </element>
